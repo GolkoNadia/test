@@ -53,8 +53,8 @@ namespace trainee_test_project
             Console.Write("Please input name of new file: ");
             string new_path = Console.ReadLine();
 
-            //зберігання результату до output.txt файлу
-            //Save result to the new file output.txt
+            //зберігання результату до нового файлу
+            //Save result to the new file
             try
             {
                 using (StreamWriter sw = new StreamWriter(new_path, false))
